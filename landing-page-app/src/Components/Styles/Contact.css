@@ -1,0 +1,43 @@
+.contact {
+  color: white;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+  flex-direction: row !important;
+}
+
+.contact-info {
+  color: black;
+}
+.contact-form {
+  border: 1px solid gray;
+  width: 23rem;
+  height: 55vh;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  color: black;
+  box-shadow: 0 0 0 2px rgba(74, 108, 247, 0.2);
+}
+.contact-form input,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+
+  border: navajowhite;
+  border-bottom: 2px solid gray;
+}
+/* Media quary */
+
+@media only screen and (max-width: 768px) {
+  .contact-container {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+}
