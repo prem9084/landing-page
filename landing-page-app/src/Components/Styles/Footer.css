@@ -7,7 +7,17 @@
 .footer-links {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .footer-links {
+    display: flex;
+    gap: 1rem !important;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
 }
